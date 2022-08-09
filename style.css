@@ -55,10 +55,11 @@ main {
 footer ul {
   list-style: none;
   display: inline-flex;
+  margin-left: 1.4rem;
 }
 footer ul li {
   vertical-align: center;
-  padding: 2rem;
+  padding: 1rem;
 }
 footer ul li a {
   text-decoration: none;
@@ -81,4 +82,8 @@ footer ul li a {
 
 .pay:hover {
   opacity: 1;
+}
+
+.pay img {
+  padding-top: 0.5rem;
 }
