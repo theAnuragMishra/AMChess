@@ -3,9 +3,11 @@ body {
   color: white;
   font-size: large;
   text-align: center;
-  background-image: url(horsey.png);
-  background-size: cover;
+  background-image: url(background1.png);
+  background-size: 85%;
   background-repeat: no-repeat;
+  background-position: 20em 1em;
+  background-blend-mode: difference;
 }
 header {
   font-family: "Turret Road", cursive;
