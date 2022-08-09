@@ -41,11 +41,15 @@ main {
   margin-left: 5rem;
   font-family: "Mate SC", serif;
   font-family: "Bungee Inline", cursive;
+  text-decoration: underline;
 }
 
 .cc ul {
   list-style: none;
   margin-left: 2.5rem;
+}
+.cc ul li::before {
+  content: "\00BB";
 }
 
 footer ul {
@@ -54,7 +58,7 @@ footer ul {
 }
 footer ul li {
   vertical-align: center;
-  padding: auto;
+  padding: 2rem;
 }
 footer ul li a {
   text-decoration: none;
@@ -63,8 +67,18 @@ footer ul li a {
 
 .dc {
   width: 5rem;
+  opacity: 0.7;
 }
 
 .dc:hover {
-  width: 5.2rem;
+  opacity: 1;
+}
+
+.pay {
+  width: 5rem;
+  opacity: 0.7;
+}
+
+.pay:hover {
+  opacity: 1;
 }
