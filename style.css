@@ -1,3 +1,8 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 body {
   background-color: black;
   color: white;
@@ -6,7 +11,7 @@ body {
   background-image: url(backgroundk.png);
   background-size: 85%;
   background-repeat: no-repeat;
-  background-position: 20em 1em;
+  background-position: 20rem 1rem;
   background-blend-mode: difference;
 }
 header {
@@ -52,16 +57,16 @@ main {
   content: "\00BB";
 }
 
-footer ul {
+.cnct ul {
   list-style: none;
   display: inline-flex;
   margin-left: 1.4rem;
 }
-footer ul li {
+.cnct ul li {
   vertical-align: center;
   padding: 1rem;
 }
-footer ul li a {
+.cnct ul li a {
   text-decoration: none;
   color: white;
 }
@@ -86,4 +91,32 @@ footer ul li a {
 
 .pay img {
   padding-top: 0.5rem;
+}
+
+.knight {
+  display: flex;
+  position: absolute;
+  margin-top: 5rem;
+  height: 50vh;
+  margin-left: -5rem;
+  top: 50rem;
+  left: 6rem;
+}
+
+.ktext p {
+  display: flex;
+  position: absolute;
+  font-family: "Pacifico", cursive;
+  top: 63rem;
+  left: 27rem;
+  text-align: center;
+  margin: 3rem;
+}
+
+.ktext h2 {
+  font-family: "Bungee Inline", cursive;
+  display: flex;
+  position: absolute;
+  top: 60rem;
+  left: 45rem;
 }
