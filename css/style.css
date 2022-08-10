@@ -140,11 +140,12 @@ body {
 .pg2 {
   display: flex;
   flex-direction: row;
-  font-size: 1.5rem;
-
+  font-size: 1.3rem;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   margin: 5rem;
-  margin-top: 10rem;
+  padding-left: 6rem;
 }
 
 .pg2 .knight img {
