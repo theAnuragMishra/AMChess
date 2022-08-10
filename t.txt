@@ -1,0 +1,5 @@
+ background-image: url("../images/backgroundk.png");
+  background-size: 85%;
+  background-repeat: no-repeat;
+  background-position: 20rem 1rem;
+  background-blend-mode: difference;
