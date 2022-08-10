@@ -166,4 +166,5 @@ body {
 .ktext h2 {
   font-family: "Bungee Inline", cursive;
   width: 30rem;
+  text-decoration: underline;
 }
