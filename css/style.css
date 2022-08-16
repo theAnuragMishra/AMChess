@@ -121,16 +121,24 @@ body {
 }
 .dc {
   width: 5rem;
-  opacity: 0.7;
+  opacity: 0.4;
 }
 
 .dc:hover {
   opacity: 1;
 }
+.yt {
+  width: 5rem;
+  opacity: 0.4;
+}
+
+.yt:hover {
+  opacity: 1;
+}
 
 .pay {
   width: 5rem;
-  opacity: 0.7;
+  opacity: 0.4;
 }
 
 .pay:hover {
@@ -138,7 +146,7 @@ body {
 }
 
 .pay img {
-  padding-top: 0.5rem;
+  padding-top: 1rem;
 }
 .pg2 {
   display: flex;
