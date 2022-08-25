@@ -213,3 +213,67 @@ body {
   width: 31rem;
   text-decoration: underline;
 }
+.pg4 {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.3rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5rem;
+  padding-right: 6rem;
+}
+
+.pg4 .wpawn img {
+  width: 11rem;
+}
+
+.wptext {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.wptext p {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+}
+
+.wptext h2 {
+  font-family: "Bungee Inline", cursive;
+  width: 71rem;
+  text-decoration: underline;
+}
+.pg5 {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.3rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5rem;
+  padding-right: 6rem;
+}
+
+.pg5 .bpawn img {
+  width: 17rem;
+}
+
+.bptext {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.bptext p {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+}
+
+.bptext h2 {
+  font-family: "Bungee Inline", cursive;
+  width: 71rem;
+  text-decoration: underline;
+}
